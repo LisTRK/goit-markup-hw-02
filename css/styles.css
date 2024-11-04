@@ -12,11 +12,7 @@ body {
 
 /* #end region base */
 
-
-h1, h2, h3 { 
-
-}
-
+/*
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -30,10 +26,9 @@ h1, h2, h3 {
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
-.header-section {
-    margin: 0;
-    padding: 4px;
- }
+    */
+
+.header-section { }
 
 
 .nav {color: #2e2f42;}
@@ -68,7 +63,9 @@ h1, h2, h3 {
     color: #2e2f42      
 }
 
-.nav-link:hover,
+.nav-link:hover {
+        color: #404bbf;
+    }
 .nav-link:active {
     color: #404bbf;
 }
@@ -77,7 +74,9 @@ h1, h2, h3 {
     font-style: normal
 }
 
-.address-list {display: inline;}
+
+
+.address-list {}
 
 .address-link { 
     
@@ -87,11 +86,11 @@ h1, h2, h3 {
     text-decoration: none; 
 }
 
-.address-item { 
-    display: inline; 
-}
+.address-item {}
 
-.address-item:hover,
+.address-item:hover {
+        color: #404bbf;
+    }
 .address-item:active {
         color: #404bbf;
     }
@@ -121,8 +120,10 @@ h1, h2, h3 {
         cursor: pointer;
 }
 
-.hero-buttun:hover,
-.hero-buttun:active { color: #404BBF;}
+.hero-buttun:hover {
+        background-color: #404BBF
+    }
+.hero-buttun:active { background-color: #404BBF}
 
 
 .featur-section {}
@@ -143,18 +144,31 @@ h1, h2, h3 {
 
 .featur-item {}
 
-.featur-subtitle,
-.team-subtitle,
+.featur-subtitle {
+        font-weight: 500;
+        font-size: 20px;
+        letter-spacing: 0.02em;
+        line-height: 1.2;
+        color: #2e2f42;
+    }
+.team-subtitle {
+        font-weight: 500;
+        font-size: 20px;
+        letter-spacing: 0.02em;
+        line-height: 1.2;
+        color: #2e2f42;
+    }
 .portfolio-subtitle  {
     font-weight: 500;
         font-size: 20px;
+        letter-spacing: 0.02em;
         line-height: 1.2;
         color: #2e2f42;
 }
 
-.featur-text, .team-text, .portfolio-text {
-    
-}
+.featur-text {}
+.team-text {}
+.portfolio-text {}
 
 
 
