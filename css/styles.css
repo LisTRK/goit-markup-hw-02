@@ -101,9 +101,7 @@ body {
         cursor: pointer;
 }
 
-.hero-buttun:hover {
-     background-color: #404BBF
- }
+.hero-buttun:hover,
 .hero-buttun:focus { background-color: #404BBF}
 
 
