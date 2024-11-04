@@ -37,7 +37,7 @@ body {
     }
 
     .header-logo:hover { color: #404bbf;}
-    .header-logo:active { color: #404bbf;}
+    .header-logo:focus { color: #404bbf}
 
 .logo {
     color: #2e2f42;
@@ -52,16 +52,10 @@ body {
     color: #2e2f42      
 }
 
-.nav-link:hover {
-        color: #404bbf;
-    }
-.nav-link:active {
-    color: #404bbf;
-}
+.nav-link:hover,
+.nav-link:focus {color: #404bbf;}
 
-.address {
-    font-style: normal
-}
+.address {font-style: normal}
 
 
 
@@ -77,10 +71,8 @@ body {
 
 .address-item {}
 
-.address-item:hover {
-        color: #404bbf;
-    }
-.address-item:active {
+.address-item:hover,
+.address-item:focus {
         color: #404bbf;
     }
 
@@ -110,9 +102,9 @@ body {
 }
 
 .hero-buttun:hover {
-        background-color: #404BBF
-    }
-.hero-buttun:active { background-color: #404BBF}
+     background-color: #404BBF
+ }
+.hero-buttun:focus { background-color: #404BBF}
 
 
 .featur-section {}
