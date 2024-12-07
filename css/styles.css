@@ -10,6 +10,13 @@ body {
     color:#434455;
 }
 
+ul,
+ol {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+}
+
 /* #end region base */
 
 
